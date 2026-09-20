@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undo Redo Cart</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <h1>TechMart Cart</h1>
+
+    <div class="controls">
+        <button id="undo-btn">Undo</button>
+        <button id="redo-btn">Redo</button>
+    </div>
+
+    <div id="products">
+        <h2>Products</h2>
+    </div>
+
+    <div id="cart">
+        <h2>Cart</h2>
+
+        <div id="cart-items">
+            Cart is Empty
+        </div>
+    </div>
+
+    <div id="history">
+        <h2>Operation History</h2>
+        <div id="history-items"></div>
+    </div>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/app.js"></script>
+
+</body>
+</html>
